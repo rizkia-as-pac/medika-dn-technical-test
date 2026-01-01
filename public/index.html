@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Online Queue</title>
+        <link rel="stylesheet" href="/assets/css/index.css" />
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="grid">
+                <!-- CURRENT QUEUE -->
+                <div class="card">
+                    <h1 class="title">Current Queue</h1>
+                    <div id="current" class="current">0</div>
+                    <div class="muted" id="meta">Loading...</div>
+
+                    <!-- ADMIN CONTROL -->
+                    <div class="admin-box">
+                        <div class="title">Admin Control</div>
+
+                        <div class="admin-actions">
+                            <button class="btn-issue" id="btnIssue">Add</button>
+                            <button class="btn-prev" id="btnPrev">
+                                &lt;&lt; Prev
+                            </button>
+                            <button class="btn-next" id="btnNext">
+                                Next &gt;&gt;
+                            </button>
+                            <button class="btn-logout" id="btnLogout">
+                                Logout
+                            </button>
+                        </div>
+
+                        <div class="muted" id="adminStatus"></div>
+                    </div>
+                </div>
+
+                <!-- QUEUE LIST -->
+                <div class="card">
+                    <h2 class="title">Queue List</h2>
+                    <div class="muted" style="margin-bottom: 10px">
+                        Auto updates every 2 seconds.
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Number</th>
+                                <th>Status</th>
+                                <th>Created</th>
+                            </tr>
+                        </thead>
+                        <tbody id="list"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="/assets/js/index.js"></script>
+    </body>
+</html>

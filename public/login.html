@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Admin Login - Queue App</title>
+        <link rel="stylesheet" href="/assets/css/login.css" />
+    </head>
+
+    <body>
+        <div class="card">
+            <h1>Admin Login</h1>
+            <div class="muted">
+                Login untuk mengontrol navigasi antrian (Next/Prev).
+            </div>
+
+            <label>Email</label>
+            <input
+                id="email"
+                type="email"
+                value="admin@queue.test"
+                placeholder="admin@queue.test"
+            />
+
+            <label>Password</label>
+            <input
+                id="password"
+                type="password"
+                value="admin12345"
+                placeholder="password"
+            />
+
+            <button id="loginBtn">Login</button>
+
+            <div class="row">
+                <button class="ghost" id="publicBtn" type="button">
+                    Lihat Halaman Antrian
+                </button>
+            </div>
+
+            <div id="status" class="status"></div>
+        </div>
+
+        <script src="/assets/js/login.js"></script>
+    </body>
+</html>
