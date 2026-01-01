@@ -13,7 +13,7 @@
 - **CV**: https://drive.google.com/file/d/18HpcLSwnoX0rp6gcg4pDst4u-nDD_ogU/view?usp=sharing
 ---
 
-## Deskripsi Singkat
+## Deskripsi
 
 Aplikasi **Antrian Online Sederhana** berbasis **Laravel (API)** dengan **frontend statis (HTML, CSS, JavaScript)**.  
 Fitur:
@@ -25,7 +25,7 @@ Fitur:
 
 ---
 
-## Arsitektur Singkat
+## Arsitektur
 
 - **Backend**: Laravel REST API (stateless, token-based auth)
 - **Frontend**: Static HTML + CSS + JavaScript
@@ -52,7 +52,7 @@ Fitur:
 
 ---
 
-## Struktur Proyek (Ringkas)
+## Struktur Proyek
 
 ```
 queue-app/
