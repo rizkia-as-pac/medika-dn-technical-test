@@ -16,14 +16,12 @@
 ## Deskripsi Singkat
 
 Aplikasi **Antrian Online Sederhana** berbasis **Laravel (API)** dengan **frontend statis (HTML, CSS, JavaScript)**.  
-Aplikasi ini memungkinkan:
+Fitur:
 
-- Admin melakukan login
+- Admin login
 - Admin mengeluarkan nomor antrian (issue)
-- Admin melakukan navigasi antrian (next / prev)
+- Admin menavigasi antrian (next / prev)
 - Pengguna melihat nomor antrian saat ini dan daftar antrian secara realtime
-
-Aplikasi dibuat **tanpa framework frontend** untuk menjaga kesederhanaan, kecepatan eksekusi, dan kemudahan review.
 
 ---
 
